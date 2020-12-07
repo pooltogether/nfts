@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "build": "yarn build && yarn export && yarn postexport",
+    "build": "next build && next export && yarn postexport",
     "postexport": "node post-export.js"
   },
   "dependencies": {
