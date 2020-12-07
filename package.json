@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "build": "next build && yarn postexport",
-    "postexport": "node post-export.js"
+    "build": "next build",
   },
   "dependencies": {
     "cors": "^2.8.5",
