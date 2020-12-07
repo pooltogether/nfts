@@ -1,3 +1,4 @@
 [build]
   base = ''
+  publish = 'out'
   functions = 'functions-out'

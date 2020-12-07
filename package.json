@@ -4,13 +4,14 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "npm-run-all --parallel start:app start:server",
-    "build": "next build && netlify-lambda build functions",
+    "build": "next build && next export && yarn build-functions && yarn postexport",
+    "build-functions": "netlify-lambda build functions",
     "start": "cross-env NODE_ENV=dev npm-run-all --parallel start:app start:server",
     "start:app": "PORT=3000 node server.js",
-    "start:server": "netlify-lambda serve functions"
+    "start:server": "netlify-lambda serve functions",
+    "postexport": "node post-export.js"
   },
   "dependencies": {
-    "axios": "^0.21.0",
     "cors": "^2.8.5",
     "netlify-lambda": "^2.0.1",
     "next": "10.0.3",
