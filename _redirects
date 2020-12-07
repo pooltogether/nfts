@@ -1,3 +1,3 @@
-/api/:symbol/:id     /api/[symbol]/[id].html     200
-/:symbol/:id         /[symbol]/[id].html         200
+/api/:symbol/:id     /api/[symbol]/[id].json     200
+/:symbol/:id         /[symbol]/[id].json         200
 /*                   /api/:splat                 200
