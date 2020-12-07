@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build": "next build && yarn postexport",
+    "postexport": "node post-export.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
