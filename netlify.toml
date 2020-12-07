@@ -1,9 +1,3 @@
 [build]
   base = ''
   functions = 'functions-out'
-
-[[redirects]]
-  from = '/ptloot/:id'
-  to = 'https://nfts.pooltogether.com/.netlify/functions/ptloot/[id]'
-  status = 200
-  force = true

@@ -1,3 +1,2 @@
-/* /.netlify/functions/nft-function/:splat 200
+/* /.netlify/functions/:splat 200
 
-/ptloot/:id  /.netlify/functions/nft-function/[id].json 200
