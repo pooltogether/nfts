@@ -12,7 +12,7 @@
 # next.js
 /out
 /dist
-/functions-out
+functions-out
 /build
 
 # misc
