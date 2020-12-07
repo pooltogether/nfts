@@ -1,2 +1,1 @@
-/* /.netlify/functions/:splat 200
-
+/ptloot/:id  /.netlify/functions/ptloot/[id] 200
