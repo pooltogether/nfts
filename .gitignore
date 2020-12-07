@@ -10,9 +10,9 @@
 /coverage
 
 # next.js
-/out/
-
-# production
+/out
+/dist
+/functions-out
 /build
 
 # misc
@@ -32,7 +32,3 @@ yarn-error.log*
 # VSCode
 .history
 .vscode
-
-dist
-out
-functions-out

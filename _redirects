@@ -1,4 +1,3 @@
-/api/ptloot/:id     /api/ptloot/[id].json     200
-/ptloot/:id         /ptloot/[id].json         200
-/api/*                   /api/:splat                 200
-/*                   /api/:splat                 200
+/* /.netlify/functions/nft-function/:splat 200
+
+/ptloot/:id  /.netlify/functions/nft-function/[id].json 200
